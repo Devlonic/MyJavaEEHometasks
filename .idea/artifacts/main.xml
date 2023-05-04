@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="main">
+    <output-path>$PROJECT_DIR$/out/artifacts/main</output-path>
+    <root id="root">
+      <element id="directory" name="statics">
+        <element id="dir-copy" path="$PROJECT_DIR$/static" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="dir-copy" path="$PROJECT_DIR$/WEB-INF" />
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyJavaEEHometasks" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
