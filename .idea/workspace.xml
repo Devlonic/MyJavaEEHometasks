@@ -9,19 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c5d944-9a29-46c1-9e3f-2972ca2a8c99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyJavaEEHometasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ee/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/hello.html" afterDir="false" />
+    <list default="true" id="08c5d944-9a29-46c1-9e3f-2972ca2a8c99" name="Changes" comment="initial servlet application">
+      <change afterPath="$PROJECT_DIR$/src/ee/Task1Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ee/Task2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/task2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_results/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_results/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_results/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +65,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -77,13 +74,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\projects\MyJavaEEHometasks\static\html" />
       <recent name="D:\JAVA\projects\MyJavaEEHometasks\static\ignore" />
       <recent name="D:\JAVA\projects\MyJavaEEHometasks" />
       <recent name="D:\JAVA\projects\MyJavaEEHometasks\webapp" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ee" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="myTomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.74" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/main" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="main">
@@ -180,11 +183,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683194143214</updated>
-      <workItem from="1683194144266" duration="6275000" />
+      <workItem from="1683194144266" duration="12749000" />
     </task>
+    <task id="LOCAL-00001" summary="initial servlet application">
+      <created>1683200701392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683200701392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial servlet application" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial servlet application" />
   </component>
 </project>
